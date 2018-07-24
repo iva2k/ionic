@@ -1,6 +1,9 @@
 @import "../../themes/ionic.globals";
 
 :host {
+  --background: initial;
+  --color: initial;
+
   @include position(0, 0, 0, 0);
 
   display: flex;

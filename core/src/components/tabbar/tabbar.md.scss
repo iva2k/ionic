@@ -2,9 +2,8 @@
 @import "./tabbar.md.vars";
 
 :host {
-  // default color / background
-  --background: #{$tabbar-md-background-color};
-  --color: #{$tabbar-md-text-color-active};
+  background: var(--background, #{$tabbar-md-background-color});
+  color: var(--color, #{$tabbar-md-text-color-active});
 
   height: $tabbar-md-height;
 
